@@ -28,9 +28,9 @@ export class HttpImitationService {
     0.4335,
     54.6
   ];
-  perPage = 500;
+  perPage = 200;
   countItems = 0;
-  totalCount = 3000;
+  totalCount = 1000;
   intervalHandler;
 
   /**

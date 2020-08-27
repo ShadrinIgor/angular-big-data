@@ -1,11 +1,1 @@
-<table class="table table-striped">
-  <tbody>
-    <ng-container #itemsContainer></ng-container>
-  </tbody>
-</table>
-
-<ng-template #rowTemplate let-items="items">
-  <tr>
-    <td *ngFor="let column of items">{{ column }}</td>
-  </tr>
-</ng-template>
+<app-big-table [items$]="items$"></app-big-table>
